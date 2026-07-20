@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Pringle Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Pringle Solutions</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#services">Services</a></li>
+                <li><a href="/index.html#about">About</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="/index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="hero-content">
+            <h1>Our Portfolio</h1>
+            <p>Showcasing our finest work across computer services, photography, and home maintenance</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filters -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="computer">Computer Work</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="maintenance">Maintenance</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Portfolio Grid -->
+    <section class="portfolio-full">
+        <div class="container">
+            <div class="portfolio-gallery">
+                <!-- Computer Work Projects -->
+                <div class="portfolio-card" data-category="computer">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=400&fit=crop" alt="Computer Setup">
+                        <div class="portfolio-overlay">
+                            <h3>High-Performance Computer Setup</h3>
+                            <p>Custom gaming and workstation builds</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Computer Setup</h4>
+                        <p class="category-tag">Computer Work</p>
+                        <p>Professional custom computer builds optimized for performance and reliability.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="computer">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=400&fit=crop" alt="Network Installation">
+                        <div class="portfolio-overlay">
+                            <h3>Network Installation</h3>
+                            <p>Enterprise networking solutions</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Network Installation</h4>
+                        <p class="category-tag">Computer Work</p>
+                        <p>Complete network setup and infrastructure for small to medium businesses.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="computer">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=400&fit=crop" alt="Server Maintenance">
+                        <div class="portfolio-overlay">
+                            <h3>Server Maintenance</h3>
+                            <p>Reliable data center solutions</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Server Maintenance</h4>
+                        <p class="category-tag">Computer Work</p>
+                        <p>Professional server maintenance and support for business continuity.</p>
+                    </div>
+                </div>
+
+                <!-- Photography Projects -->
+                <div class="portfolio-card" data-category="photography">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500&h=400&fit=crop" alt="Event Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Event Photography</h3>
+                            <p>Capturing special moments</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Event Photography</h4>
+                        <p class="category-tag">Photography</p>
+                        <p>Professional event photography capturing candid and posed moments.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="photography">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=400&fit=crop" alt="Portrait Session">
+                        <div class="portfolio-overlay">
+                            <h3>Portrait Session</h3>
+                            <p>Personal and professional portraits</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Portrait Session</h4>
+                        <p class="category-tag">Photography</p>
+                        <p>Studio and outdoor portrait photography with professional editing.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="photography">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1491460971518-ba5ee7b5e331?w=500&h=400&fit=crop" alt="Product Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Product Photography</h3>
+                            <p>High-quality product images</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Product Photography</h4>
+                        <p class="category-tag">Photography</p>
+                        <p>Professional product photography for e-commerce and marketing.</p>
+                    </div>
+                </div>
+
+                <!-- Maintenance Projects -->
+                <div class="portfolio-card" data-category="maintenance">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&h=400&fit=crop" alt="Home Renovation">
+                        <div class="portfolio-overlay">
+                            <h3>Home Renovation</h3>
+                            <p>Complete home transformation</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Home Renovation</h4>
+                        <p class="category-tag">Maintenance</p>
+                        <p>Professional home renovation and remodeling services.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="maintenance">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=400&fit=crop" alt="Electrical Work">
+                        <div class="portfolio-overlay">
+                            <h3>Electrical Work</h3>
+                            <p>Safe and certified installations</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Electrical Work</h4>
+                        <p class="category-tag">Maintenance</p>
+                        <p>Professional electrical installation and maintenance for safety and efficiency.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="maintenance">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1503387762-592411456b3b?w=500&h=400&fit=crop" alt="Plumbing Services">
+                        <div class="portfolio-overlay">
+                            <h3>Plumbing Services</h3>
+                            <p>Expert plumbing solutions</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Plumbing Services</h4>
+                        <p class="category-tag">Maintenance</p>
+                        <p>Complete plumbing repairs, installation, and maintenance services.</p>
+                    </div>
+                </div>
+
+                <!-- Additional projects for variety -->
+                <div class="portfolio-card" data-category="computer">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=400&fit=crop" alt="IT Support">
+                        <div class="portfolio-overlay">
+                            <h3>IT Support Services</h3>
+                            <p>24/7 technical assistance</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>IT Support Services</h4>
+                        <p class="category-tag">Computer Work</p>
+                        <p>Comprehensive IT support and helpdesk services for businesses.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="photography">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&h=400&fit=crop" alt="Wedding Photography">
+                        <div class="portfolio-overlay">
+                            <h3>Wedding Photography</h3>
+                            <p>Unforgettable wedding moments</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Wedding Photography</h4>
+                        <p class="category-tag">Photography</p>
+                        <p>Professional wedding photography capturing your special day.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="maintenance">
+                    <div class="portfolio-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1503387762-592411456b3b?w=500&h=400&fit=crop" alt="General Repairs">
+                        <div class="portfolio-overlay">
+                            <h3>General Repairs</h3>
+                            <p>All types of home repairs</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>General Repairs</h4>
+                        <p class="category-tag">Maintenance</p>
+                        <p>Expert general repair services for all your home maintenance needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="portfolio-cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Get in touch with us today to discuss your needs</p>
+            <a href="/index.html#contact" class="cta-button">Contact Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pringle Solutions</h4>
+                    <p>Your trusted family business</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html#services">Services</a></li>
+                        <li><a href="/index.html#about">About</a></li>
+                        <li><a href="/portfolio.html">Portfolio</a></li>
+                        <li><a href="/index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pringle Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Portfolio filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+
+                // Get filter value
+                const filterValue = this.getAttribute('data-filter');
+
+                // Filter portfolio cards
+                document.querySelectorAll('.portfolio-card').forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                        card.style.animation = 'fadeInUp 0.6s ease-out';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
