@@ -47,11 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-        contactForm.addEventListener('submit', e => {
-            e.preventDefault();
-            alert('Thanks — this is a front-end demo form. Connect it to email or a service like Formspree to actually receive messages.');
-            e.target.reset();
-        });
+        // Form submits directly to email via formsubmit.co
     }
 
     const STAGES = ['Received', 'Assessed', 'In Progress', 'Quality Check', 'Complete'];
